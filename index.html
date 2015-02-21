@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Pim Pam Pet
+title: Simple colours 
 description: 
 ---
-<div class="page" id="index">
-  <div class="content">
-  	<h1>Pim Pam Pet</h1>
-    <a href="{{ site.baseurl }}/signup"><button>Nieuw spel</button></a>
-  </div>
-</div>
+<ul>
+{% for colour in site.data.colours %}
+  <li class="" style="background: #{{ colour.hex }};">#{{ colour.hex }}</li>  
+{% endfor %}
+</ul>

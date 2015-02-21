@@ -1,0 +1,15 @@
+	# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    M van Eijgen -- Design/developer -- @mvaneijgen
+
+# THANKS
+
+    
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Jekyll, Grunt, Github Pages
