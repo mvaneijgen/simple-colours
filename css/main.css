@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* Global Resets
+———————————————————————————————————— */
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+/*--------------
+    Header
+---------------*/
+/*--------------
+    Menu
+---------------*/
+/*--------------
+    Footer
+---------------*/
+/*******************************
+          Responsive
+*******************************/
+
+/*# sourceMappingURL=main.css.map */
