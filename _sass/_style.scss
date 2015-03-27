@@ -1,5 +1,7 @@
 /* Global Resets
 ———————————————————————————————————— */
+$base-color: #0ba;
+$alt-color: #fff;
 * {
 	box-sizing: border-box !important;
 }
@@ -21,7 +23,7 @@ ul {
 	margin-left: 60px;
 }
 a {
-  color: #fff;
+  color: $alt-color;
   text-decoration: none;
   }
 li {
@@ -31,27 +33,43 @@ li {
 	margin: 10px 10px 28px;
 	position: relative;
 }
+li { transition: all .1s ease-in-out; }
+li:hover { transform: scale(1.3); }
 span {
   position: absolute;
   bottom: -20px;
-  background: #fff;
+  background: $alt-color;
   width: 100%;
   padding: 5px;
   color: #bbb;
 }
 aside {
   width: 60px;
-  background: #0ba;
+  background: $base-color;
   position: fixed;
   height: 100%;
-  color: #fff;
+  color: $alt-color;
 }
 aside a {
 	padding: 10px;
 }
 header {
-  background: #ccc;
-  color: #fff;
+  background: rgba( $base-color, .4 );
+  color: $alt-color;
   margin-left: 60px;
   padding: 20px;
+}
+article {
+  max-width: 700px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 22px;
+  margin: 0
+}
+h2 {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  color: rgba( $alt-color, .7 );
 }
