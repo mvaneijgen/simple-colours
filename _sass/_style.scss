@@ -18,7 +18,12 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	margin-left: 60px;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+  }
 li {
 	width: 80px;
 	height: 80px;
@@ -33,4 +38,20 @@ span {
   width: 100%;
   padding: 5px;
   color: #bbb;
+}
+aside {
+  width: 60px;
+  background: #0ba;
+  position: fixed;
+  height: 100%;
+  color: #fff;
+}
+aside a {
+	padding: 10px;
+}
+header {
+  background: #344;
+  color: #fff;
+  margin-left: 60px;
+  padding: 20px;
 }

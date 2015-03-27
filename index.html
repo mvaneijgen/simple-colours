@@ -3,8 +3,17 @@ layout: default
 title: Simple colours 
 description: 
 ---
+<aside><a href="http://mvaneijgen.nl">Back</a></aside>
+<header>
+<h1>There are to many colours, so I dumbed down the 16 million HEX colours to 4000.</h1>
+<h2>4000 easy to remember HEX colours, which only uses three characters. </h2>
+<p>
+Keuzen maken in kleur is altijd lastig geweest. Zeker als je keuze hebt uit 16 miljoen kleuren. Dit hebben wij nu terug gebracht naar 4000 kleuren. Normaal gesproken bestaan Hex kleuen uit zes cijvers en/of letters, van 0-9 en van A-F. Nu hebben wij een lijst gemaakt met in plaats van zes, drie characters. De kleuren zijn op deze manier een stuk overzichelijker en makkelijker te onthouden.
+
+Ook de enzo kleur is hier mee vervangen waar het eerst #00B6AD was is het nu #0BA, bijna geen kleur verschil (niet te zien in iedergeval) en stuk makkelijker te onthouden.</p>
+</header>
 <ul>
-{% for colour in site.data.colours %}
-  <li class="" style="background: #{{ colour.hex }};"><span>#{{ colour.hex }}</span></li>  
-{% endfor %}
+	{% for colour in site.data.colours %}
+	<li class="" style="background: #{{ colour.hex }};"><span>#{{ colour.hex }}</span></li>  
+	{% endfor %}
 </ul>

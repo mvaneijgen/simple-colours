@@ -25,6 +25,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-left: 60px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 li {
@@ -44,17 +50,23 @@ span {
   color: #bbb;
 }
 
-/*--------------
-    Header
----------------*/
-/*--------------
-    Menu
----------------*/
-/*--------------
-    Footer
----------------*/
-/*******************************
-          Responsive
-*******************************/
+aside {
+  width: 60px;
+  background: #0ba;
+  position: fixed;
+  height: 100%;
+  color: #fff;
+}
+
+aside a {
+  padding: 10px;
+}
+
+header {
+  background: #344;
+  color: #fff;
+  margin-left: 60px;
+  padding: 20px;
+}
 
 /*# sourceMappingURL=main.css.map */
