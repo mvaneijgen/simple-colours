@@ -21,11 +21,9 @@ body {
   background: #f2f2f2;
 }
 
-ul {
+.colours ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  margin-left: 60px;
 }
 
 a {
@@ -33,7 +31,40 @@ a {
   text-decoration: none;
 }
 
-li {
+header {
+  background: #0ba;
+  color: #fff;
+  padding: 20px;
+  min-height: 250px;
+}
+
+section {
+  margin: 0 auto;
+}
+
+section.info {
+  max-width: 1000px;
+}
+
+section.colours {
+  width: 95%;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section.colours li {
   width: 80px;
   height: 80px;
   display: inline-block;
@@ -41,15 +72,15 @@ li {
   position: relative;
 }
 
-li {
+section.colours li {
   transition: all .1s ease-in-out;
 }
 
-li:hover {
+section.colours li:hover {
   transform: scale(1.3);
 }
 
-span {
+section.colours span {
   position: absolute;
   bottom: -20px;
   background: #fff;
@@ -58,40 +89,57 @@ span {
   color: #bbb;
 }
 
-aside {
-  width: 60px;
-  background: #0ba;
-  position: fixed;
-  height: 100%;
-  color: #fff;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Styles */
 }
-
-aside a {
-  padding: 10px;
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
 }
-
-header {
-  background: rgba(0, 187, 170, 0.4);
-  color: #fff;
-  margin-left: 60px;
-  padding: 20px;
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
 }
-
-article {
-  max-width: 700px;
-  margin: 0 auto;
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles */
 }
-
-h1 {
-  font-size: 22px;
-  margin: 0;
+/* iPads (landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Styles */
 }
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+  section.info article {
+    float: left;
+  }
 
-h2 {
-  font-weight: 400;
-  font-size: 16px;
-  margin: 0;
-  color: rgba(255, 255, 255, 0.7);
+  section.info article:first-child {
+    width: 70%;
+  }
+
+  section.info article:last-child {
+    margin-left: 20px;
+    width: 25%;
+  }
+
+  section.colours {
+    margin: 40px;
+  }
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-pixel-ratio: 1.5), only screen and (min-pixel-ratio: 1.5) {
+  /* Styles */
 }
 
 /*# sourceMappingURL=main.css.map */

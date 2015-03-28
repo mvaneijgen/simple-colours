@@ -2,74 +2,143 @@
 ———————————————————————————————————— */
 $base-color: #0ba;
 $alt-color: #fff;
+
 * {
 	box-sizing: border-box !important;
 }
 ::selection {
-  background: #ffb7b7; /* WebKit/Blink Browsers */
+	background: #ffb7b7; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
+	background: #ffb7b7; /* Gecko Browsers */
 }
 body {
 	margin: 0;
 	font-family: 'Roboto Condensed', sans-serif;
 	background: #f2f2f2;
 }
-ul {
+.colours ul {
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
-	margin-left: 60px;
 }
 a {
-  color: $alt-color;
-  text-decoration: none;
-  }
-li {
+	color: $alt-color;
+	text-decoration: none;
+}
+header {
+	background: $base-color;
+	color: $alt-color;
+	padding: 20px;
+	min-height: 250px;
+}
+section {
+	margin: 0 auto;
+}
+section.info {
+	max-width: 1000px;
+}
+section.colours {
+	width: 95%;
+}
+h1, h2, h3 {
+	margin: 0;
+}
+h1 {
+	font-size: 22px;
+}
+h2 {
+	font-weight: 400;
+	font-size: 16px;
+	color: rgba( $alt-color, .7 );
+}
+section.colours li {
 	width: 80px;
 	height: 80px;
 	display: inline-block;
 	margin: 10px 10px 28px;
 	position: relative;
 }
-li { transition: all .1s ease-in-out; }
-li:hover { transform: scale(1.3); }
-span {
-  position: absolute;
-  bottom: -20px;
-  background: $alt-color;
-  width: 100%;
-  padding: 5px;
-  color: #bbb;
+section.colours li { transition: all .1s ease-in-out; }
+section.colours li:hover { transform: scale(1.3); }
+section.colours span {
+	position: absolute;
+	bottom: -20px;
+	background: $alt-color;
+	width: 100%;
+	padding: 5px;
+	color: #bbb;
 }
-aside {
-  width: 60px;
-  background: $base-color;
-  position: fixed;
-  height: 100%;
-  color: $alt-color;
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+	/* Styles */
 }
-aside a {
-	padding: 10px;
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+	/* Styles */
 }
-header {
-  background: rgba( $base-color, .4 );
-  color: $alt-color;
-  margin-left: 60px;
-  padding: 20px;
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	/* Styles */
 }
-article {
-  max-width: 700px;
-  margin: 0 auto;
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+	/* Styles */
 }
-h1 {
-  font-size: 22px;
-  margin: 0
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+	/* Styles */
 }
-h2 {
-  font-weight: 400;
-  font-size: 16px;
-  margin: 0;
-  color: rgba( $alt-color, .7 );
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+	/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	/* Styles */
+	section.info article {
+		float: left;
+	}
+	section.info article:first-child {
+		width: 70%;
+	}
+	section.info article:last-child {
+		margin-left:20px;
+		width: 25%;
+	}
+	section.colours {
+		margin: 40px;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-pixel-ratio : 1.5),
+only screen and (min-pixel-ratio : 1.5) {
+	/* Styles */
 }
