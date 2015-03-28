@@ -25,6 +25,16 @@ a {
 	color: $alt-color;
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	margin: 1em 0;
+	padding: 0;
+}
+li {
+	list-style-type: none !important;
+}
 header {
 	background: $base-color;
 	color: $alt-color;
@@ -68,6 +78,11 @@ section.colours span {
 	padding: 5px;
 	color: #bbb;
 }
+.footer {
+	background: #344;
+	color: #fff;
+	padding: 10px; 
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
@@ -104,7 +119,6 @@ and (min-width : 1224px) {
 		margin: 40px;
 	}
 }
-
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
