@@ -35,10 +35,6 @@ module.exports = function(grunt) {
         files: ["index.html", "writing.html", "about.html", "_layouts/*.html", "_posts/*.md", "_projects/*.md", "_includes/*.html"],
         tasks: ["shell:jekyllBuild"]
       },
-      js: {
-        files: ["js/*.js"],
-        tasks: ["uglify", "shell:jekyllBuild"]
-      },
       css: {
         files: ["_sass/*.scss"],
         tasks: ["sass", "shell:jekyllBuild"]

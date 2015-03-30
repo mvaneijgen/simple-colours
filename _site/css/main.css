@@ -53,6 +53,51 @@ footer p {
   text-align: right;
 }
 
+nav {
+  background: #0ba;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+nav li:hover {
+  background: #344;
+}
+
+nav li a:hover {
+  text-decoration: none;
+}
+
+.comming-soon {
+  background: #bbb;
+}
+
+.comming-soon a {
+  color: #999;
+}
+
+.comming-soon:hover {
+  background: #bbb;
+}
+
+.comming-soon a:hover {
+  color: #999;
+}
+
+.back {
+  background: #344;
+  position: absolute;
+  left: 0;
+}
+
 header {
   background: rgba(0, 187, 170, 0.7);
   color: #fff;
@@ -128,49 +173,26 @@ section.colours span {
   padding: 10px;
 }
 
-nav {
-  background: #0ba;
-}
-
-nav ul {
-  margin: 0;
+#colors li {
+  font-family: Arial;
+  width: 200px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  background: #fff;
+  margin: 5px 5px 0 0;
+  list-style: none;
   text-align: center;
+  letter-spacing: 2px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 20px;
-  padding: 20px;
-}
-
-nav li:hover {
-  background: #344;
-}
-
-nav li a:hover {
-  text-decoration: none;
-}
-
-.comming-soon {
-  background: #bbb;
-}
-
-.comming-soon a {
-  color: #999;
-}
-
-.comming-soon:hover {
-  background: #bbb;
-}
-
-.comming-soon a:hover {
-  color: #999;
-}
-
-.back {
-  background: #344;
-  position: absolute;
-  left: 0;
+#colors li:hover {
+  line-height: 100px;
+  width: 300px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */

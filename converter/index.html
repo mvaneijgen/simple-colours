@@ -1,0 +1,32 @@
+---
+layout: simple
+title: Simple colours 
+description: 
+---
+<style type="text/css">
+#colors li{
+  font-family: Arial;
+  width: 200px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  background: #fff;
+  margin: 5px 5px 0 0;
+  list-style: none;
+  text-align: center;
+  letter-spacing: 2px;
+  
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#colors li:hover{
+  line-height: 100px;
+  width: 300px;
+}
+</style>
+
+<script src="{{ site.baseurl }}/js/main.js"></script>
+<ul id="colors"></ul>
