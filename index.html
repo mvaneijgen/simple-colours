@@ -1,0 +1,12 @@
+---
+layout: default
+title: Simple colours 
+description: 
+---
+<section class="colours">
+<ul>
+	{% for colour in site.data.colours %}
+	<li class="" style="background: #{{ colour.hex }};"><span>#{{ colour.hex }}</span></li>  
+	{% endfor %}
+</ul>
+</section>
