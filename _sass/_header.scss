@@ -1,0 +1,19 @@
+header {
+	background: rgba($base-color, .7);
+	color: $alt-color;
+	padding: 30px;
+	min-height: 250px;
+}
+section {
+	margin: 0 auto;
+}
+section.info {
+	max-width: 1000px;
+}
+section.info ul {
+	margin: 19px 0;
+	padding: 0;
+}
+section.info li {
+	margin-bottom: 6px;
+}

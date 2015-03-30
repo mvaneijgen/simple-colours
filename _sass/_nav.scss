@@ -1,0 +1,24 @@
+nav {
+	background: $base-color;
+}
+nav ul {
+	margin: 0;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+.comming-soon {
+	background: #bbb;
+}
+.comming-soon a {
+	color: #999;
+}
+.back {
+	background: $sub-color;
+	position: absolute;
+	left: 0;
+}
