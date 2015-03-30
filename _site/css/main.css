@@ -139,11 +139,27 @@ nav li {
   padding: 20px;
 }
 
+nav li:hover {
+  background: #344;
+}
+
+nav li a:hover {
+  text-decoration: none;
+}
+
 .comming-soon {
   background: #bbb;
 }
 
 .comming-soon a {
+  color: #999;
+}
+
+.comming-soon:hover {
+  background: #bbb;
+}
+
+.comming-soon a:hover {
   color: #999;
 }
 

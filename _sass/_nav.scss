@@ -10,11 +10,22 @@ nav li {
 	margin-right: 20px;
 	padding: 20px;
 }
-
+nav li:hover {
+  background: $sub-color;
+}
+nav li a:hover {
+	text-decoration: none;
+}
 .comming-soon {
 	background: #bbb;
 }
 .comming-soon a {
+	color: #999;
+}
+.comming-soon:hover {
+	background: #bbb;
+}
+.comming-soon a:hover {
 	color: #999;
 }
 .back {
