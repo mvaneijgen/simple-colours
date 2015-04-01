@@ -10,7 +10,7 @@ description:
 
 # the base hostname & protocol for your site
 url: "http://mvaneijgen.nl/"
-baseurl: "http://mvaneijgen.nl/simple-colours/"
+baseurl: "http://mvaneijgen.nl/simple-colours"
 
 twitter_username: mvaneijgen
 github_username:  mvaneijgen

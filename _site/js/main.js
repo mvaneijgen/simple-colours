@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function(event) {
 /*
   Coverts a 6 hex color digit to a possible 3 color digit 
 */
@@ -106,3 +107,4 @@ else
   //if the code was too short give alert
    alert("color must have 7 characters"); 
 }
+});
