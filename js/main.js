@@ -12,6 +12,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     if(color[0] != "#")
     {
        color = "#" + color;
+       document.getElementById("iets").value = color;
+    }
+   
+    if(color.length < 7){
+      color = '#'+color.slice(1,2)+color.slice(1,2)+color.slice(2,3)+color.slice(2,3)+color.slice(3,4)+color.slice(3,4);
+      document.getElementById("iets").value = color;
     }
 
     //check if the color code has its 7 needed characters

@@ -7,7 +7,6 @@ nav ul {
 }
 nav li {
 	display: inline-block;
-	margin-right: 20px;
 	padding: 20px;
 }
 nav li:hover {
@@ -30,6 +29,17 @@ nav li a:hover {
 }
 .back {
 	background: $sub-color;
-	position: absolute;
+}
+.converter {
+	background: $alert-color;
+}
+.pull-right,
+.pull-left {
+position: absolute;
+}
+.pull-left {
 	left: 0;
+}
+.pull-right {
+	right: 0;
 }
